@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Tugas-9 CSS */
+.tugas9 {
+    border: solid 1px black;
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.tugas9 form {
+    text-align: left;
+    width: 100%;
+}
+
+.tugas9 td {
+    vertical-align: bottom;
+}
+
+.tugas9 button {
+    background-color: white;
+    border-radius: 30%;
+}
+
+/* Tugas-10 CSS */
+.tugas10 table {
+    margin: auto;
+    max-width: 100%;
+    border: solid 1px black;
+    font-family: serif;
+}
+
+.tugas10 th {
+    background-color: #AAAAAA;
+    padding: 0 100px;
+    max-width: inherit;
+}
+
+.tugas10 td {
+    background-color: #F07E4E;
+    text-align: left;
 }
