@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Tugas9 from "./Tugas-9/tugas-9.js";
 import Tugas10 from "./Tugas-10/tugas-10.js";
+import Tugas11 from "./Tugas-11/tugas-11.js";
 
 function App() {
     let dataHargaBuah = [
@@ -16,6 +17,7 @@ function App() {
         <div className="App">
             <Tugas9 />
             <Tugas10 daftar={dataHargaBuah} />
+            <Tugas11 />
         </div>
     );
 }
