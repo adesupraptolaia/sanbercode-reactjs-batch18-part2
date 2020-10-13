@@ -69,18 +69,18 @@
 }
 
 .tugas10 th {
-    background-color: #AAAAAA;
+    background-color: #aaaaaa;
     padding: 0 100px;
     max-width: inherit;
 }
 
 .tugas10 td {
-    background-color: #F07E4E;
+    background-color: #f07e4e;
     text-align: left;
 }
 
 /* Tugas-11 CSS */
-.tugas11{
+.tugas11 {
     margin: auto;
     width: 60%;
 }
@@ -91,4 +91,46 @@
 
 .tugas11 h2:nth-child(2) {
     float: right;
+}
+
+/* Tugas-12 CSS */
+.tugas12 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.tugas12 .tablebuah {
+    margin: auto;
+    max-width: 100%;
+    border: solid 1px black;
+    font-family: serif;
+}
+
+.tugas12 .tablebuah th {
+    padding: 0 100px;
+    max-width: inherit;
+}
+
+.tugas12 .tablebuah thead {
+    background-color: #aaaaaa;
+}
+
+.tugas12 .tablebuah td {
+    background-color: #f07e4e;
+    text-align: left;
+}
+
+.tugas12 .tableform table {
+    margin: 10px auto;
+}
+
+.tugas12 .tableform table {
+    padding: 10px;
+}
+
+.tugas12 .tableform td {
+    vertical-align: bottom;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-right: 30px;
 }
