@@ -1,6 +1,6 @@
 import React from "react";
 
-class Tugas11 extends React.Component {
+class Tugas12 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -222,4 +222,4 @@ class Tugas11 extends React.Component {
     }
 }
 
-export default Tugas11;
+export default Tugas12;
