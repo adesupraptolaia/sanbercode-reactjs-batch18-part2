@@ -4,7 +4,8 @@ import "./App.css";
 // import Tugas10 from "./Tugas-10/tugas-10.js";
 // import Tugas11 from "./Tugas-11/tugas-11.js";
 // import Tugas12 from "./Tugas-12/tugas-12.js";
-import Tugas13 from "./Tugas-13/tugas-13.js";
+// import Tugas13 from "./Tugas-13/tugas-13.js";
+import Tugas14 from "./Tugas-14/tugas-14";
 
 function App() {
     // let dataHargaBuah = [
@@ -21,7 +22,8 @@ function App() {
             {/* <Tugas10 daftar={dataHargaBuah} /> */}
             {/* <Tugas11 /> */}
             {/* <Tugas12 /> */}
-            <Tugas13 />
+            {/* <Tugas13 /> */}
+            <Tugas14 />
         </div>
     );
 }
