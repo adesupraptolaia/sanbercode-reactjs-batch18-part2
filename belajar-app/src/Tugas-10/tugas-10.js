@@ -2,6 +2,14 @@ import React from "react";
 
 class Tugas10 extends React.Component {
     render() {
+        let dataHargaBuah = [
+            { nama: "Semangka", harga: 10000, berat: 1000 },
+            { nama: "Anggur", harga: 40000, berat: 500 },
+            { nama: "Strawberry", harga: 30000, berat: 400 },
+            { nama: "Jeruk", harga: 30000, berat: 1000 },
+            { nama: "Mangga", harga: 30000, berat: 500 },
+        ];
+
         return (
             <div className="tugas10">
                 <h1>Tabel Harga Buah</h1>
@@ -12,12 +20,12 @@ class Tugas10 extends React.Component {
                         <th>Berat</th>
                     </thead>
                     <tbody>
-                        {this.props.daftar.map((item) => {
+                        {dataHargaBuah.map((item) => {
                             return (
                                 <tr>
                                     <td>{item.nama}</td>
                                     <td>{item.harga}</td>
-                                    <td>{item.berat/1000} kg</td>
+                                    <td>{item.berat / 1000} kg</td>
                                 </tr>
                             );
                         })}

@@ -86,7 +86,7 @@ const Form = () => {
     if (showForm) {
         form = (
             <>
-                <form className="tableform">
+                <form className="tugas13">
                     <table>
                         <tr>
                             <td>

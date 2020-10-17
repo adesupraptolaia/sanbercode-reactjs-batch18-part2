@@ -52,7 +52,7 @@ const Table = () => {
         <>
             <h1>Tugas 14</h1>
 
-            <div className="tugas14table">
+            <div className="tugas13">
                 <h1>Tabel price Buah</h1>
                 <table className="tablebuah">
                     <thead>

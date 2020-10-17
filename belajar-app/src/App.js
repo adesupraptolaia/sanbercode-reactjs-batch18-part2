@@ -5,7 +5,7 @@ import "./App.css";
 // import Tugas11 from "./Tugas-11/tugas-11.js";
 // import Tugas12 from "./Tugas-12/tugas-12.js";
 // import Tugas13 from "./Tugas-13/tugas-13.js";
-import Tugas14 from "./Tugas-14/tugas-14";
+import Tugas15 from "./Tugas-15/tugas-15";
 
 function App() {
     // let dataHargaBuah = [
@@ -18,12 +18,12 @@ function App() {
 
     return (
         <div className="App">
+            <Tugas15 />
             {/* <Tugas9 /> */}
             {/* <Tugas10 daftar={dataHargaBuah} /> */}
             {/* <Tugas11 /> */}
             {/* <Tugas12 /> */}
             {/* <Tugas13 /> */}
-            <Tugas14 />
         </div>
     );
 }
